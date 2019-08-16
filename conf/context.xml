@@ -46,6 +46,11 @@
           url="jdbc:postgresql://localhost:5432/postgres"
           username="hrms" password="HRMS" maxActive="20" maxIdle="30" maxWait="1000"/>
 -->
-
+<!--   FOR SQLSERVER
+    <Resource maxWait="1000" maxIdle="30" maxActive="20" 
+		password="P@ssw0rd" username="hrms" url="jdbc:sqlserver://localhost:1433;databaseName=hrms" 
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+		type="javax.sql.DataSource" auth="Container" name="jdbc/HRMS"/>
+-->
 
 </Context>
